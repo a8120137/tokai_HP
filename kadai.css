@@ -1,0 +1,220 @@
+body{
+  background-color: rgb(240, 239, 239);
+}
+
+.ss-image {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.myfont{
+  font-family: "Helvetica Neue", Arial, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+
+.whitetxt{
+  color: white;
+  font-size: large;
+}
+
+h1{
+  background: black;
+  padding: 5px;
+  color: #ddffdd;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem 1rem 4rem;
+  color: #fff;
+  border-radius: 100vh 0 0 100vh;
+  background: #646464;
+}
+
+h2:before {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 10px;
+  width: 14px;
+  height: 14px;
+  content: '';
+  border-radius: 50%;
+  background: #fff;
+}
+
+.main{
+  background-color: gray;
+  padding: 30px 30px;
+  width: 80%;
+  margin: 8px auto;
+  border-radius: 24px;
+  box-shadow: 1px 1px 10px -5px rgba(0.3,0.7,0.4,0.8)
+}
+
+.box{
+  position: relative;
+  background: linear-gradient(
+    -45deg,
+    #fff 25%, #646464 25%,
+    #646464 50%, #fff 50%,
+    #fff 75%, #646464 75%,
+    #d8e0ff
+  );
+  background-size: 8px 8px;
+  padding: 8px;
+  margin: 5%;
+}
+
+.box_inner{
+  background: #FFF;
+  padding: .5em;
+}
+
+.button {
+  /* border: solid 1px skyblue; */
+  color: black;
+  border: 3px solid black;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  letter-spacing: 5px;
+  text-decoration: none;
+  overflow: hidden;
+  margin: 0;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #fff;
+  border: 1px solid orange;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+  color: orange;
+  overflow: hidden;
+  margin: 0;
+}
+
+.detail-show {
+  display: block;
+  transition: 0.5s;
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+}
+
+.detail-hidden {
+  font-size: small;
+  display: block;
+  background: none;
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  margin: 0;
+}
+
+.btn{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.btn-canvas{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font: bold 20px Helvetica;
+}
+
+.btn-orange{
+  border-color: rgb(252, 161, 58);
+  background-color: rgba(255, 199, 96, 0.2);
+}
+
+.btn-yellow{
+  font-size: large;
+  border-color: rgb(255, 243, 81, 1.0);
+  background-color: rgba(255, 243, 81, 0.2);
+}
+
+.btn-blue{
+  font-size: large;
+  border-color: rgb(91, 94, 255, 1.0);
+  background-color: rgba(91, 94, 255, 0.2);
+}
+
+.btn-green{
+  font-size: large;
+  border-color: rgb(118, 255, 76, 1.0);
+  background-color: rgba(118, 255, 76, 0.2);
+}
+
+.btn-pink{
+  font-size: large;
+  border-color: rgb(255, 88, 205, 1.0);
+  background-color: rgba(255, 88, 205, 0.2);
+}
+
+.btn-cha{
+  font-size: large;
+  border-color: rgb(107, 57, 0, 1.0);
+  background-color: rgba(107, 57, 0, 0.2);
+}
+
+
+block {
+  font: 16px "Open Sans", Calibri, sans-serif;
+  width: 620px;
+}
+
+block > button {
+  padding: 2px 6px;
+  width: 15em;
+  background-color: #ddd;
+  border: none;
+  box-shadow: 3px 3px 4px black;
+  cursor: pointer;
+}
+
+block > .detail-hidden {
+  border-radius: 0 0 10px 10px;
+  background-color: #ddd;
+  padding: 2px 6px;
+  margin: 0;
+  box-shadow: 3px 3px 4px black;
+}
+
+block[open] > button {
+  background-color: #ccf;
+}
+
+.qes{
+  font-size: 20px;
+}
+
+
+.reco{
+  text-align: center;
+}
+
+
+.inner {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
